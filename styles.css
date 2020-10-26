@@ -1,0 +1,38 @@
+body {
+   font-family: Georgia, serif;
+   box-sizing: border-box;
+   background-color: wheat;
+   min-height: 100vh;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+header {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pokemoncontainer {
+   background-color: wheat;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.pokemon__name {
+    font-weight: bold;
+    font-size: large;
+}
